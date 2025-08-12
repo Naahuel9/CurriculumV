@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #eef2f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cv-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: #fff;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Columna izquierda */
+.left-column {
+    background: linear-gradient(180deg, #2a5298, #1e3c72);
+    color: #fff;
+    padding: 30px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.profile h2 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #d1e3ff;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+    padding-bottom: 5px;
+}
+
+.section p, .section li {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.icon {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Columna derecha */
+.right-column {
+    padding: 30px;
+}
+
+.right-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #1e3c72;
+    border-bottom: 2px solid #1e3c72;
+    padding-bottom: 5px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1e3c72;
+}
+
+.job span {
+    font-size: 14px;
+    color: #777;
+}
+
+.job ul {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #333;
+}
